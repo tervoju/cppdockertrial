@@ -547,6 +547,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ccontainer.dir/build.make CMakeFiles/ccontainer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sidekick.o: sidekick.cpp.o
+
+.PHONY : sidekick.o
+
+# target to build an object file
+sidekick.cpp.o:
+	$(MAKE) -f CMakeFiles/ccontainer.dir/build.make CMakeFiles/ccontainer.dir/sidekick.cpp.o
+.PHONY : sidekick.cpp.o
+
+sidekick.i: sidekick.cpp.i
+
+.PHONY : sidekick.i
+
+# target to preprocess a source file
+sidekick.cpp.i:
+	$(MAKE) -f CMakeFiles/ccontainer.dir/build.make CMakeFiles/ccontainer.dir/sidekick.cpp.i
+.PHONY : sidekick.cpp.i
+
+sidekick.s: sidekick.cpp.s
+
+.PHONY : sidekick.s
+
+# target to generate assembly for a file
+sidekick.cpp.s:
+	$(MAKE) -f CMakeFiles/ccontainer.dir/build.make CMakeFiles/ccontainer.dir/sidekick.cpp.s
+.PHONY : sidekick.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -590,6 +617,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sidekick.o"
+	@echo "... sidekick.i"
+	@echo "... sidekick.s"
 .PHONY : help
 
 
